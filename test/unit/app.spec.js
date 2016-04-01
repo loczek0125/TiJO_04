@@ -70,7 +70,7 @@ describe('app', function () {
             expect(app.areaOfTrapezoid(1,-2,3)).toEqual(false)
         });
         it('should return false when c is less than 0', function(){
-            expect(app.areaOfTrapezoid(1,2,-3)).toEqual(false)
+            expect(app.areaOfTrapezoid(1,3,-3)).toEqual(false)
         });
         it('should return false when a is not a number', function(){
             expect(app.areaOfTrapezoid('String',2,3)).toEqual(false)
